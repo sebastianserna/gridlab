@@ -4,8 +4,10 @@ CSS Grid Experiments
 ## Cursos
 * Wes Bos - CSS Grid https://cssgrid.io/
 
-
 ## Recursos y casos de estudio
 * CSS Grid Garden http://cssgridgarden.com/
 * Grid by Example https://gridbyexample.com/
 * CSS Grid Playground https://mozilladevelopers.github.io/playground/css-grid/
+
+## Artículos
+* How I stopped using Bootstrap’s layout thanks to CSS Grid https://blog.theodo.fr/2018/03/stop-using-bootstrap-layout-thanks-to-css-grid/
