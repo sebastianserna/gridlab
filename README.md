@@ -15,7 +15,8 @@ CSS Grid Experiments
 ## Tutoriales
 * Learn CSS Grid in 5 Minutes https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228
 
-## Artículos
+## Artículos y conferencias
+* Progressing Our Layouts (Jen Simmons) http://jensimmons.com/presentation/progressing-our-layouts
 * CSS Grid Application Layout in Production https://techblog.commercetools.com/gss-grid-application-layout-in-production-f60c65a05cfa
 * How to quickly prototype apps with CSS Grid and CSS Variables https://medium.freecodecamp.org/how-to-quickly-prototype-apps-with-css-grid-and-css-variables-8d3d96d68eaa
 * How I stopped using Bootstrap’s layout thanks to CSS Grid https://blog.theodo.fr/2018/03/stop-using-bootstrap-layout-thanks-to-css-grid/
