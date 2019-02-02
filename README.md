@@ -14,6 +14,7 @@ CSS Grid Experiments
 
 ## Tutoriales
 * Learn CSS Grid in 5 Minutes https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228
+* A Beginner's Tutorial to the CSS Grid (By Example!) https://www.youtube.com/watch?time_continue=8&v=xXKp3b1YL-U
 
 ## Artículos y conferencias
 * Progressing Our Layouts (Jen Simmons) http://jensimmons.com/presentation/progressing-our-layouts
