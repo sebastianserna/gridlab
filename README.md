@@ -1,6 +1,19 @@
 # GridLab
 CSS Grid Experiments
 
+## Recrear Layouts de apps populares en CSS Grid
+* Netflix (Movies)
+* Spotify (Music)
+* Youtube (Videos)
+* Gmail (Mail)
+* Pinterest (Gallery)
+* Google (Search)
+* Facebook (Social)
+* Instagram (Photos)
+* Twitter
+* Twitch
+* Asana (Tasks)
+
 ## Cursos
 * Wes Bos - CSS Grid https://cssgrid.io/
 * CSS Grid Course (FreeCodeCamp) https://www.youtube.com/watch?v=t6CBKf8K_Ac
