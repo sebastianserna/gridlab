@@ -20,6 +20,12 @@ CSS Grid Experiments
 * Flash Grid (Codyhouse) https://github.com/CodyHouse/flashgrid 
 * Raster https://github.com/rsms/raster
 
+## Compatibilidad en navegadores
+
+* Can I use (CSS Grid) https://caniuse.com/#search=grid
+* CSS Grid in IE: Debunking Common IE Grid Misconceptions https://css-tricks.com/css-grid-in-ie-debunking-common-ie-grid-misconceptions/
+* Using CSS Grid: Supporting Browsers Without Grid https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/
+
 ## Cursos
 * Wes Bos - CSS Grid https://cssgrid.io/
 * CSS Grid Course (FreeCodeCamp) https://www.youtube.com/watch?v=t6CBKf8K_Ac
