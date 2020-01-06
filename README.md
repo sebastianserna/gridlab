@@ -40,6 +40,8 @@ CSS Grid Experiments
 * The Dark side of the grid https://www.matuzo.at/blog/the-dark-side-of-the-grid/
 
 ## Tutoriales
+* CSS Variables With Inline Styles https://ishadeed.com/article/css-variables-inline-styles/
+* Super-Powered Grid Components with CSS Custom Properties https://css-tricks.com/super-power-grid-components-with-css-custom-properties/
 * Flexbox vs. CSS grid - Webflow layout tutorial https://www.youtube.com/watch?v=MdPYenT89o4
 * CSS Grid Application Layout in Production https://techblog.commercetools.com/gss-grid-application-layout-in-production-f60c65a05cfa
 * Learn CSS Grid in 5 Minutes https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228
