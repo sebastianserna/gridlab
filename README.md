@@ -20,6 +20,10 @@ CSS Grid Experiments
 * Flash Grid (Codyhouse) https://github.com/CodyHouse/flashgrid 
 * Raster https://github.com/rsms/raster
 
+## Buenas prácticas
+
+* Best Practices With CSS Grid Layout https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/
+
 ## Compatibilidad en navegadores
 
 * Can I use (CSS Grid) https://caniuse.com/#search=grid
