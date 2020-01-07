@@ -54,6 +54,7 @@ CSS Grid Experiments
 * Chris Coyier
 * Wes Bos
 * Sara Soueidan
+* Amelia Bellamy-Royds
 
 ## Recursos y casos de estudio
 * CSS Grid Garden http://cssgridgarden.com/
