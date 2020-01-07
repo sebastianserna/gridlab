@@ -34,6 +34,13 @@ CSS Grid Experiments
 * Wes Bos - CSS Grid https://cssgrid.io/
 * CSS Grid Course (FreeCodeCamp) https://www.youtube.com/watch?v=t6CBKf8K_Ac
 
+## Expertos
+* Rachel Andrew
+* Jen Simmons
+* Chris Coyier
+* Wes Bos
+* Sara Soueidan
+
 ## Recursos y casos de estudio
 * CSS Grid Garden http://cssgridgarden.com/
 * Grid by Example https://gridbyexample.com/
