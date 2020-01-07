@@ -4,6 +4,7 @@ CSS Grid Experiments
 ## Recrear Layouts de apps populares en CSS Grid
 * Netflix (Movies)
 * Spotify (Music)
+* Frame.io (Video)
 * Youtube (Videos)
 * Gmail (Mail)
 * Pinterest (Gallery)
