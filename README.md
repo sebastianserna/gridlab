@@ -15,11 +15,24 @@ CSS Grid Experiments
 * Twitch
 * Asana (Tasks)
 
-## Frameworks
+## Frameworks que utilizan CSS Grid
 
 * Blueprint CSS https://blueprintcss.dev/
-* Flash Grid (Codyhouse) https://github.com/CodyHouse/flashgrid 
+* FlashGrid (Codyhouse) https://github.com/CodyHouse/flashgrid 
 * Raster https://github.com/rsms/raster
+
+## Grids de Frameworks CSS populares (no utilizan CSS Grid)
+
+* Bootstrap https://getbootstrap.com/docs/4.0/layout/grid/
+* Foundation https://get.foundation/sites/docs/flex-grid.html
+* Bulma https://bulma.io/documentation/columns/basics/
+* Semantic UI https://semantic-ui.com/collections/grid.html
+* Tailwind https://tailwindcss.com/components/grids/
+* Pure CSS https://purecss.io/grids/
+* UI Kit https://getuikit.com/docs/grid
+* Materialize CSS https://materializecss.com/grid.html
+* Tachyons http://tachyons.io/docs/layout/grid/
+* Primer https://primer.style/css/objects/grid
 
 ## Buenas prácticas
 
@@ -71,16 +84,3 @@ CSS Grid Experiments
 * A Complete Guide to Grid https://css-tricks.com/snippets/css/complete-guide-grid/
 * CSS Grid — The Swiss Army Knife For Website and Application Layouts https://medium.com/@js_tut/css-grid-the-swiss-army-knife-for-cutting-website-and-application-layouts-c1bd7a6b4e56
 
-
-## Grids de Frameworks CSS populares (no utilizan CSS Grid)
-
-* Bootstrap https://getbootstrap.com/docs/4.0/layout/grid/
-* Foundation https://get.foundation/sites/docs/flex-grid.html
-* Bulma https://bulma.io/documentation/columns/basics/
-* Semantic UI https://semantic-ui.com/collections/grid.html
-* Tailwind https://tailwindcss.com/components/grids/
-* Pure CSS https://purecss.io/grids/
-* UI Kit https://getuikit.com/docs/grid
-* Materialize CSS https://materializecss.com/grid.html
-* Tachyons http://tachyons.io/docs/layout/grid/
-* Primer https://primer.style/css/objects/grid
