@@ -55,6 +55,7 @@ CSS Grid Experiments
 * Jen Simmons
 * Chris Coyier
 * Wes Bos
+* Miriam Suzanne
 * Sara Soueidan
 * Amelia Bellamy-Royds
 
