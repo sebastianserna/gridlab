@@ -20,6 +20,7 @@ CSS Grid Experiments
 * Blueprint CSS https://blueprintcss.dev/
 * FlashGrid (Codyhouse) https://github.com/CodyHouse/flashgrid 
 * Raster https://github.com/rsms/raster
+* Tailwind https://tailwindcss.com/components/grids/
 
 ## Grids de Frameworks CSS populares (no utilizan CSS Grid)
 
@@ -27,7 +28,6 @@ CSS Grid Experiments
 * Foundation https://get.foundation/sites/docs/flex-grid.html
 * Bulma https://bulma.io/documentation/columns/basics/
 * Semantic UI https://semantic-ui.com/collections/grid.html
-* Tailwind https://tailwindcss.com/components/grids/
 * Pure CSS https://purecss.io/grids/
 * UI Kit https://getuikit.com/docs/grid
 * Materialize CSS https://materializecss.com/grid.html
