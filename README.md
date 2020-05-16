@@ -1,5 +1,5 @@
 # GridLab
-CSS Grid Experiments
+CSS Grid research
 
 ## Recrear Layouts de apps populares en CSS Grid
 * Netflix (Movies)
