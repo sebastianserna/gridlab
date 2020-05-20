@@ -1,20 +1,6 @@
 # GridLab
 CSS Grid research
 
-## Recrear Layouts de apps populares en CSS Grid
-* Netflix (Movies)
-* Spotify (Music)
-* Frame.io (Video)
-* Youtube (Videos)
-* Gmail (Mail)
-* Pinterest (Gallery)
-* Google (Search)
-* Facebook (Social)
-* Instagram (Photos)
-* Twitter
-* Twitch
-* Asana (Tasks)
-
 ## Frameworks que utilizan CSS Grid
 
 * Blueprint CSS https://blueprintcss.dev/
@@ -88,4 +74,19 @@ CSS Grid research
 * Using CSS Grid to build a page layout with a sticky header and footer https://www.bitovi.com/blog/using-css-grid-to-build-a-page-layout
 * A Complete Guide to Grid https://css-tricks.com/snippets/css/complete-guide-grid/
 * CSS Grid — The Swiss Army Knife For Website and Application Layouts https://medium.com/@js_tut/css-grid-the-swiss-army-knife-for-cutting-website-and-application-layouts-c1bd7a6b4e56
+
+
+## Experimentos - Recrear Layouts de apps populares en CSS Grid
+* Netflix (Movies)
+* Spotify (Music)
+* Frame.io (Video)
+* Youtube (Videos)
+* Gmail (Mail)
+* Pinterest (Gallery)
+* Google (Search)
+* Facebook (Social)
+* Instagram (Photos)
+* Twitter
+* Twitch
+* Asana (Tasks)
 
