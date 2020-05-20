@@ -11,7 +11,7 @@ CSS Grid research
 ## Grids de Frameworks CSS populares (no utilizan CSS Grid)
 
 * Bootstrap https://getbootstrap.com/docs/4.0/layout/grid/
-* Foundation https://get.foundation/sites/docs/flex-grid.html
+* Foundation https://get.foundation/sites/docs/xy-grid.html
 * Bulma https://bulma.io/documentation/columns/basics/
 * Semantic UI https://semantic-ui.com/collections/grid.html
 * Pure CSS https://purecss.io/grids/
