@@ -2313,5 +2313,5 @@ https://github.com/foundation/foundation-sites/blob/develop/dist/css/foundation.
   background: royalblue;
   color: white;
   box-shadow: inset 0 0 0 1px #B1C1F3;
-  height: 40px;
+  min-height: 80px;
 }

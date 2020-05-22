@@ -28,45 +28,32 @@
 <h2>Foundation</h2>
 <a href="https://get.foundation/sites/docs/xy-grid.html" target="_blank">https://get.foundation/sites/docs/xy-grid.html</a>
 
-<textarea code-editor="html" code-result-size="220">
-<div class="grid-x">
-  <div class="cell">full width cell</div>
-  <div class="cell">full width cell</div>
-</div>
-<div class="grid-x">
-  <div class="cell small-6">6 cells</div>
-  <div class="cell small-6">6 cells</div>
-</div>
-<div class="grid-x">
-  <div class="cell medium-6 large-4">12/6/4 cells</div>
-  <div class="cell medium-6 large-8">12/6/8 cells</div>
-</div>  
-</textarea>
-
-<h2>Gutters</h2>
-
-<textarea code-editor="html" code-result-size="220">
-<div class="grid-x grid-margin-x">
-  <div class="cell medium-6 large-4">12/6/4 cells</div>
-  <div class="cell medium-6 large-8">12/6/8 cells</div>
-</div>
-<div class="grid-x grid-padding-x">
-  <div class="cell medium-6 large-4">12/6/4 cells</div>
-  <div class="cell medium-6 large-8">12/6/8 cells</div>
-</div>
-</textarea>
-
-<h2>Grid Container</h2>
-
-<textarea code-editor="html" code-result-size="320">
-<div class="grid-container">
-  <div class="grid-x grid-margin-x">
-    <div class="cell small-4">cell</div>
-    <div class="cell small-4">cell</div>
-    <div class="cell small-4">cell</div>
+<textarea code-editor="html" code-result-size="420">
+  <div class="grid-x">
+    <div class="cell">full width cell</div>
+    <div class="cell">full width cell</div>
   </div>
-</div>
-</textarea>
+  <div class="grid-x">
+    <div class="cell small-6">6 cells</div>
+    <div class="cell small-6">6 cells</div>
+  </div>
+  <div class="grid-x">
+    <div class="cell medium-6 large-4">12/6/4 cells</div>
+    <div class="cell medium-6 large-8">12/6/8 cells</div>
+  </div>  
+  </textarea>
+  
+  <h2>Grid Container</h2>
+  
+  <textarea code-editor="html" code-result-size="140">
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x">
+      <div class="cell small-4">cell</div>
+      <div class="cell small-4">cell</div>
+      <div class="cell small-4">cell</div>
+    </div>
+  </div>
+  </textarea>
 
 </main>
 
@@ -75,7 +62,7 @@
 <script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.js"></script>  
 <script>
   loadCss = [
-    "../dist/test/foundation/foundation-grid.css"
+    "../dist/foundation/foundation-grid.css"
   ];
   codeResultInit();
 </script>
