@@ -1,0 +1,59 @@
+/* GridLab */
+
+body {
+  font-family: sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+}
+
+header {
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+header ul li a.active {
+  color: white;
+  background: black;
+  border-radius: 24px;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+main h2,
+main h3,
+main h4,
+main p {
+  text-align: center;
+}
+
+main h2 {
+  padding-top: 40px;
+}
+
+main a {
+  width: 100%;
+  text-align: center !important;
+  color: royalblue;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 16px;
+}

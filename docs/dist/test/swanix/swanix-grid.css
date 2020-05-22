@@ -1,0 +1,309 @@
+/*!
+* ------------------------------------------------------------
+*  Swanix Grid
+*  Based on https://github.com/swanix/ui
+* ------------------------------------------------------------
+*/
+/* --------------------------------------------------------------------------------
+   LAYOUT - GRID
+-------------------------------------------------------------------------------- */
+:root,
+[theme='light'] {
+  --grid-bg-primary: #FFF;
+  --grid-bg-secondary: #EDEDED;
+}
+
+[theme='dark'] {
+  --grid-bg-primary: #000;
+  --grid-bg-secondary: #262626;
+}
+
+/* App container */
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app.grid > *,
+.app .grid > * {
+  overflow: auto;
+  /* Grid children with scroll */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 1 Column / 1 Row --------------------- */
+.grid {
+  --cols: 1fr;
+  --rows: 1fr;
+  display: grid;
+  grid-template-columns: var(--cols);
+  grid-template-rows: var(--rows);
+  min-height: 0;
+  height: 100%;
+}
+
+/* 1 Column / 2 Rows ------------------- */
+.grid.two-rows {
+  --row1: 1fr;
+  --row2: 1fr;
+  grid-template-rows: var(--row1) var(--row2);
+}
+
+.grid.two-rows.header,
+.grid.two-rows.header-medium {
+  --row1: 80px;
+  --row2: 1fr;
+  grid-template-rows: var(--row1) var(--row2);
+}
+
+.grid.two-rows.header-small {
+  --row1: 42px;
+  --row2: 1fr;
+  grid-template-rows: var(--row1) var(--row2);
+}
+
+.grid.two-rows.header-large {
+  --row1: 120px;
+  --row2: 1fr;
+  grid-template-rows: var(--row1) var(--row2);
+}
+
+.grid.two-rows.footer,
+.grid.two-rows.footer-medium {
+  --row1: 1fr;
+  --row2: 80px;
+  grid-template-rows: var(--row1) var(--row2);
+}
+
+.grid.two-rows.footer-small {
+  --row1: 1fr;
+  --row2: 42px;
+  grid-template-rows: var(--row1) var(--row2);
+}
+
+.grid.two-rows.footer-large {
+  --row1: 1fr;
+  --row2: 120px;
+  grid-template-rows: var(--row1) var(--row2);
+}
+
+/* 1 Column / 3 Rows --------------------- */
+.grid.three-rows {
+  --row1: 1fr;
+  --row2: 1fr;
+  --row3: 1fr;
+  grid-template-rows: var(--row1) var(--row2) var(--row3);
+}
+
+.grid.three-rows.header {
+  --row1: 80px;
+  --row2: 1fr;
+  --row3: 1fr;
+  grid-template-rows: var(--row1) var(--row2) var(--row3);
+}
+
+.grid.three-rows.footer {
+  --row1: 1fr;
+  --row2: 1fr;
+  --row3: 80px;
+  grid-template-rows: var(--row1) var(--row2) var(--row3);
+}
+
+.grid.three-rows.header-footer,
+.grid.three-rows.header-footer-medium {
+  --row1: 80px;
+  --row2: 1fr;
+  --row3: 80px;
+  grid-template-rows: var(--row1) var(--row2) var(--row3);
+}
+
+.grid.three-rows.header-footer-small {
+  --row1: 42px;
+  --row2: 1fr;
+  --row3: 42px;
+  grid-template-rows: var(--row1) var(--row2) var(--row3);
+}
+
+.grid.three-rows.header-footer-large {
+  --row1: 120px;
+  --row2: 1fr;
+  --row3: 120px;
+  grid-template-rows: var(--row1) var(--row2) var(--row3);
+}
+
+/* 2 Columns / 1 Row --------------------- */
+.grid.two-cols {
+  --col1: 1fr;
+  --col2: 1fr;
+  grid-template-columns: var(--col1) var(--col2);
+}
+
+/* Sidebar Left */
+.grid.two-cols.sidebar-left,
+.grid.two-cols.sidebar-left-medium {
+  --col1: 220px;
+  --col2: 1fr;
+  grid-template-columns: var(--col1) var(--col2);
+}
+
+.grid.two-cols.sidebar-left-small {
+  --col1: 120px;
+  --col2: 1fr;
+  grid-template-columns: var(--col1) var(--col2);
+}
+
+.grid.two-cols.sidebar-left-large {
+  --col1: 480px;
+  --col2: 1fr;
+  grid-template-columns: var(--col1) var(--col2);
+}
+
+/* Sidebar Right */
+.grid.two-cols.sidebar-right,
+.grid.two-cols.sidebar-right-medium {
+  --col1: 1fr;
+  --col2: 220px;
+  grid-template-columns: var(--col1) var(--col2);
+}
+
+.grid.two-cols.sidebar-right-small {
+  --col1: 1fr;
+  --col2: 120px;
+  grid-template-columns: var(--col1) var(--col2);
+}
+
+.grid.two-cols.sidebar-right-large {
+  --col1: 1fr;
+  --col2: 480px;
+  grid-template-columns: var(--col1) var(--col2);
+}
+
+/* 3 Columns / 1 Row --------------------- */
+.grid.three-cols {
+  --col1: 1fr;
+  --col2: 1fr;
+  --col3: 1fr;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+}
+
+.grid.three-cols.sidebars {
+  --col1: 220px;
+  --col2: 1fr;
+  --col3: 220px;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+  grid-template-rows: 1fr;
+}
+
+.grid.three-cols.sidebars-small {
+  --col1: 120px;
+  --col2: 1fr;
+  --col3: 120px;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+}
+
+.grid.three-cols.sidebars-large {
+  --col1: 480px;
+  --col2: 1fr;
+  --col3: 480px;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+}
+
+.grid.three-cols.sidebar-left-small {
+  --col1: 120px;
+  --col2: 1fr;
+  --col3: 220px;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+}
+
+.grid.three-cols.sidebar-left-large {
+  --col1: 480px;
+  --col2: 1fr;
+  --col3: 220px;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+}
+
+.grid.three-cols.sidebar-right-small {
+  --col1: 220px;
+  --col2: 1fr;
+  --col3: 120px;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+}
+
+.grid.three-cols.sidebar-right-large {
+  --col1: 220px;
+  --col2: 1fr;
+  --col3: 480px;
+  grid-template-columns: var(--col1) var(--col2) var(--col3);
+}
+
+@media (max-width: 940px) {
+  .grid.three-cols.sidebars,
+  .grid.three-cols.sidebars-large {
+    --col3: 0px;
+  }
+}
+
+/* Auto Columns & Rows --------------------- */
+.grid.auto-cols {
+  --auto-cols: 240px;
+  --auto-rows: 240px;
+  grid-template-columns: repeat(auto-fit, minmax(var(--auto-cols), 1fr));
+  grid-auto-rows: var(--auto-rows);
+  align-items: center;
+}
+
+.grid.auto-cols > * {
+  height: 100%;
+}
+
+/* Grid Gap ------------------------------- */
+.grid.gap,
+.grid.gap-medium {
+  --grid-gap: 8px;
+  grid-gap: var(--grid-gap);
+}
+
+.grid.gap-small {
+  --grid-gap: 4px;
+  grid-gap: var(--grid-gap);
+}
+
+.grid.gap-large {
+  --grid-gap: 16px;
+  grid-gap: var(--grid-gap);
+}
+
+/* Dev Utilities ------------------------------- */
+.grid[mode="dev"] * {
+  box-shadow: inset 0 0 0 1px gray;
+}
+
+.grid[mode="dev-dark"] * {
+  color: #f2f2f2;
+  background: #262626;
+  box-shadow: inset 0 0 0 1px #cccccc;
+}
+
+/* Grid Backgrounds */
+.grid.three-cols > *:first-child,
+.grid.three-cols > *:last-child {
+  background-color: var(--grid-bg-primary);
+}
+
+.grid.two-rows.footer > *:last-child {
+  background-color: var(--grid-bg-secondary);
+}
+
+.grid * {
+  font-family: sans-serif;
+  background: royalblue !important;
+  color: white;
+  box-shadow: inset 0 0 0 1px white;
+  height: 80px;
+  padding: 12px;
+}

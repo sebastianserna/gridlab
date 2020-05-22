@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Foundation - GridLab</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="../dist/gridlab.css">
+</head>
+<body>
+<header>
+  <h1>GridLab</h1>
+  <ul>
+    <li><a href="bulma.html">Bulma</a></li>
+    <li><a href="tailwind.html">Tailwind</a></li>
+    <li><a href="reflex.html">Reflex</a></li>
+    <li><a href="flashgrid.html">Flash Grid</a></li>
+    <li><a href="foundation.html" class="active">Foundation</a></li>
+    <li><a href="pure.html">Pure</a></li>
+    <li><a href="swanix.html">Swanix</a></li>
+  </ul>
+  <hr>
+</header>
+
+<main>
+
+<h2>Foundation</h2>
+<a href="https://get.foundation/sites/docs/xy-grid.html" target="_blank">https://get.foundation/sites/docs/xy-grid.html</a>
+
+<textarea code-editor="html" code-result-size="220">
+<div class="grid-x">
+  <div class="cell">full width cell</div>
+  <div class="cell">full width cell</div>
+</div>
+<div class="grid-x">
+  <div class="cell small-6">6 cells</div>
+  <div class="cell small-6">6 cells</div>
+</div>
+<div class="grid-x">
+  <div class="cell medium-6 large-4">12/6/4 cells</div>
+  <div class="cell medium-6 large-8">12/6/8 cells</div>
+</div>  
+</textarea>
+
+<h2>Gutters</h2>
+
+<textarea code-editor="html" code-result-size="220">
+<div class="grid-x grid-margin-x">
+  <div class="cell medium-6 large-4">12/6/4 cells</div>
+  <div class="cell medium-6 large-8">12/6/8 cells</div>
+</div>
+<div class="grid-x grid-padding-x">
+  <div class="cell medium-6 large-4">12/6/4 cells</div>
+  <div class="cell medium-6 large-8">12/6/8 cells</div>
+</div>
+</textarea>
+
+<h2>Grid Container</h2>
+
+<textarea code-editor="html" code-result-size="320">
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-4">cell</div>
+    <div class="cell small-4">cell</div>
+    <div class="cell small-4">cell</div>
+  </div>
+</div>
+</textarea>
+
+</main>
+
+<!-- Syntax Highlighter -->
+<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.js"></script>  
+<script>
+  loadCss = [
+    "../dist/test/foundation/foundation-grid.css"
+  ];
+  codeResultInit();
+</script>
+</body>
+</html>

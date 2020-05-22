@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tailwind - GridLab</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="../dist/gridlab.css">
+</head>
+<body>
+<header>
+  <h1>GridLab</h1>
+  <ul>
+    <li><a href="bulma.html">Bulma</a></li>
+    <li><a href="tailwind.html" class="active">Tailwind</a></li>
+    <li><a href="reflex.html">Reflex</a></li>
+    <li><a href="flashgrid.html">Flash Grid</a></li>
+    <li><a href="foundation.html">Foundation</a></li>
+    <li><a href="pure.html">Pure</a></li>
+    <li><a href="swanix.html">Swanix</a></li>
+  </ul>
+  <hr>
+</header>
+
+<main>
+<h2>Tailwind</h2>
+<a href="https://tailwindcss.com/docs/grid-template-columns/" target="_blank">https://tailwindcss.com/docs/grid-template-columns/</a>
+
+<textarea code-editor="html" code-result-size="340">
+<div class="grid grid-cols-3 gap-2">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+</div>
+</textarea>
+
+<h2>Responsive</h2>
+
+<h3>All breakpoints</h3>
+
+<textarea code-editor="html" code-result-size="420">
+<div class="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>
+  <div>13</div>
+  <div>14</div>
+  <div>15</div>
+  <div>16</div>
+</div>
+</textarea>
+
+<h3>Container</h3>
+
+<textarea code-editor="html" code-result-size="320">
+<div class="container">
+  <div class="grid grid-cols-2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+  </div>
+</div>
+</textarea>
+
+</main>
+
+<!-- Syntax Highlighter -->
+<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.js"></script>  
+<script>
+  loadCss = [
+    "../dist/test/tailwind/tailwind-grid.css"
+  ];
+  codeResultInit();
+</script>
+</body>
+</html>
