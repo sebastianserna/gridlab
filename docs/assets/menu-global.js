@@ -8,7 +8,6 @@
 const menuGlobalItems = [
   { 
     name: 'Bulma', 
-    icon: "", 
     link: "bulma"
   },
   { 
