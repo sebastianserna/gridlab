@@ -9,31 +9,31 @@ const menuGlobalItems = [
   { 
     name: 'Bulma', 
     icon: "", 
-    link: "/bulma"
+    link: "bulma"
   },
   { 
     name: 'Tailwind', 
-    link: "/tailwind"
+    link: "tailwind"
   },
   { 
     name: 'Foundation', 
-    link: "/foundation"
+    link: "foundation"
   },
   { 
     name: 'Pure', 
-    link: "/pure"
+    link: "pure"
   },
   { 
     name: 'Reflex', 
-    link: "/reflex"
+    link: "reflex"
   },
   { 
     name: 'Flash Grid', 
-    link: "/flashgrid"
+    link: "flashgrid"
   },
   { 
     name: 'Swanix', 
-    link: "/swanix"
+    link: "swanix"
   }
 ];
 
@@ -41,7 +41,7 @@ const menuGlobalTemplate = /*html*/ `
   <h1><a href="/gridlab">GridLab</a></h1>
   ${menuGlobalItems.map(item => `
   <li>
-    <a class="menu-item" href="/${item.link}">
+    <a class="menu-item" href="${item.link}">
       ${item.name ? `${item.name}`:` `}
     </a>
   </li>
