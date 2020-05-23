@@ -1,0 +1,18 @@
+/*!
+* ------------------------------------------------------------
+*  Pure Grid
+*  Based on https://github.com/pure-css/pure/blob/master/src/grids/css/grids-core.css
+* ------------------------------------------------------------
+*/
+
+@import "grids";
+@import "grids-responsive";
+
+.pure-g *,
+.pure-u-1-3 {
+  font-family: sans-serif;
+  background: royalblue;
+  color: white;
+  box-shadow: inset 0 0 0 1px #B1C1F3;
+  min-height: 80px;
+}

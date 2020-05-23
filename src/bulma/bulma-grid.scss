@@ -1,0 +1,17 @@
+/*!
+* ------------------------------------------------------------
+*  Bulma Grid
+*  Based on https://github.com/jgthms/bulma
+* ------------------------------------------------------------
+*/
+
+@import "utilities/_all.sass";
+@import "grid/columns.sass";
+
+.columns,
+.column {
+  font-family: sans-serif;
+  background: royalblue;
+  color: white;
+  box-shadow: inset 0 0 0 1px #B1C1F3;
+}
