@@ -10,7 +10,6 @@ body {
   padding-bottom: 80px;
 }
 
-
 body {
   max-width: 1280px;
   margin: 0 auto;
@@ -21,11 +20,30 @@ body {
   text-decoration: none;
 }
 
-.github-button {
-  display: flex; 
-  margin-bottom: 40px;
-  margin-top: 20px;
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #24292e;
+  background-color: #F6F7F9;
+  border: 1px solid rgba(27,31,35,.2);
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 14px;
+  height: 26px;
+  margin-right: 4px;
+  line-height: 28px;
+  border-radius: 4px;
 }
+
+.button:hover {
+  background-color: #F0F1F5;
+  border: 1px solid rgba(27,31,35,.5);
+}
+
+/* Main Header 
+---------------------------------- */
 
 .main-header {
   display: flex;
@@ -36,15 +54,15 @@ body {
   top: 0;
   z-index: 9999;
   height: 60px;
-  background: white;
-  border-bottom: 1px solid #CCC;
+  background: black;
   padding: 0 20px;
 }
 
-.main-header h1 a {
+.main-header .main-logo a {
   text-decoration: none;
-  color: black;
-  margin-right: 40px;
+  color: white;
+  margin-right: 28px;
+  font-size: 26px;
 }
 
 .main-header ul {
@@ -57,13 +75,29 @@ body {
 }
 
 .main-header ul li a {
-  color: black;
+  color: rgba($color: #FFFFFF, $alpha: 0.8);
   text-decoration: none;
   padding: 10px 20px;
 }
 
 .main-header ul li a.active {
   color: white;
-  background: black;
+  background: #383838;
   border-radius: 24px;
+}
+
+/* Sub Header 
+---------------------------------- */
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 40px;
+}
+
+.sub-header h1 {
+  margin-right: 20px;
 }
