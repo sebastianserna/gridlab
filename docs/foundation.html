@@ -9,57 +9,50 @@
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
 <body>
-<header>
-  <h1><a href="/gridlab">GridLab</a></h1>
-  <ul>
-    <li><a href="bulma">Bulma</a></li>
-    <li><a href="tailwind">Tailwind</a></li>
-    <li><a href="reflex">Reflex</a></li>
-    <li><a href="flashgrid">Flash Grid</a></li>
-    <li><a href="foundation" class="active">Foundation</a></li>
-    <li><a href="pure">Pure</a></li>
-    <li><a href="swanix">Swanix</a></li>
-  </ul>
-  <hr>
+<!-- Menu -->
+<header class="main-header">
+  <script src="assets/menu-global.js"></script>
 </header>
 
-<main>
-
+<!-- Content -->
 <h2>Foundation</h2>
 <a href="https://get.foundation/sites/docs/xy-grid" target="_blank">https://get.foundation/sites/docs/xy-grid.html</a>
+<!-- Github stars -->
+<div class="github-button">
+  <a class="github-button" href="https://github.com/foundation/foundation-sites" data-size="large" data-show-count="true" aria-label="Star on GitHub">Star</a>
+</div>
 
 <textarea code-editor="html" code-result-size="420">
-  <div class="grid-x">
-    <div class="cell">full width cell</div>
-    <div class="cell">full width cell</div>
-  </div>
-  <div class="grid-x">
-    <div class="cell small-6">6 cells</div>
-    <div class="cell small-6">6 cells</div>
-  </div>
-  <div class="grid-x">
-    <div class="cell medium-6 large-4">12/6/4 cells</div>
-    <div class="cell medium-6 large-8">12/6/8 cells</div>
-  </div>  
-  </textarea>
-  
-  <h2>Grid Container</h2>
-  
-  <textarea code-editor="html" code-result-size="140">
-  <div class="grid-container">
-    <div class="grid-x grid-margin-x">
-      <div class="cell small-4">cell</div>
-      <div class="cell small-4">cell</div>
-      <div class="cell small-4">cell</div>
-    </div>
-  </div>
-  </textarea>
+<div class="grid-x">
+  <div class="cell">full width cell</div>
+  <div class="cell">full width cell</div>
+</div>
+<div class="grid-x">
+  <div class="cell small-6">6 cells</div>
+  <div class="cell small-6">6 cells</div>
+</div>
+<div class="grid-x">
+  <div class="cell medium-6 large-4">12/6/4 cells</div>
+  <div class="cell medium-6 large-8">12/6/8 cells</div>
+</div>  
+</textarea>
 
-</main>
+<h2>Grid Container</h2>
 
-<!-- Syntax Highlighter -->
-<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.js"></script>  
+<textarea code-editor="html" code-result-size="140">
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-4">cell</div>
+    <div class="cell small-4">cell</div>
+    <div class="cell small-4">cell</div>
+  </div>
+</div>
+</textarea>
+
+<!-- Scripts -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
     "dist/foundation/foundation-grid.css"

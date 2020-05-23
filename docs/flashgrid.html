@@ -9,23 +9,18 @@
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
 <body>
-<header>
-  <h1><a href="/gridlab">GridLab</a></h1>
-  <ul>
-    <li><a href="bulma">Bulma</a></li>
-    <li><a href="tailwind">Tailwind</a></li>
-    <li><a href="reflex">Reflex</a></li>
-    <li><a href="flashgrid" class="active">Flash Grid</a></li>
-    <li><a href="foundation">Foundation</a></li>
-    <li><a href="pure">Pure</a></li>
-    <li><a href="swanix">Swanix</a></li>
-  </ul>
-  <hr>
+<!-- Menu -->
+<header class="main-header">
+  <script src="assets/menu-global.js"></script>
 </header>
 
-<main>
+<!-- Content -->
 <h2>Flash Grid</h2>
 <a href="https://dev.to/codyhouse/flash-grid-learn-css-grid-by-building-a-grid-system-2c4f" target="_blank">Flash Grid: learn CSS Grid by building a grid system</a>
+<!-- Github stars -->
+<div class="github-button">
+  <a class="github-button" href="https://github.com/CodyHouse/flashgrid" data-size="large" data-show-count="true" aria-label="Star on GitHub">Star</a>
+</div>
 
 <textarea code-editor="html" code-result-size="620">
 <div class="grid grid-gap-xs">
@@ -72,11 +67,10 @@
 </div>
 </textarea>
 
-</main>
-
-<!-- Syntax Highlighter -->
-<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.js"></script>  
+<!-- Scripts -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
     "dist/flashgrid/flashgrid.css"

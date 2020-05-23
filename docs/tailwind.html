@@ -9,23 +9,18 @@
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
 <body>
-<header>
-  <h1><a href="/gridlab">GridLab</a></h1>
-  <ul>
-    <li><a href="bulma">Bulma</a></li>
-    <li><a href="tailwind" class="active">Tailwind</a></li>
-    <li><a href="reflex">Reflex</a></li>
-    <li><a href="flashgrid">Flash Grid</a></li>
-    <li><a href="foundation">Foundation</a></li>
-    <li><a href="pure">Pure</a></li>
-    <li><a href="swanix">Swanix</a></li>
-  </ul>
-  <hr>
+<!-- Menu -->
+<header class="main-header">
+  <script src="assets/menu-global.js"></script>
 </header>
 
-<main>
+<!-- Content -->
 <h2>Tailwind</h2>
 <a href="https://tailwindcss.com/docs/grid-template-columns/" target="_blank">https://tailwindcss.com/docs/grid-template-columns/</a>
+<!-- Github stars -->
+<div class="github-button">
+  <a class="github-button" href="https://github.com/tailwindcss/tailwindcss" data-size="large" data-show-count="true" aria-label="Star on GitHub">Star</a>
+</div>
 
 <textarea code-editor="html" code-result-size="340">
 <div class="grid grid-cols-3 gap-2">
@@ -83,9 +78,10 @@
 
 </main>
 
-<!-- Syntax Highlighter -->
-<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.js"></script>  
+<!-- Scripts -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
     "dist/tailwind/tailwind-grid.css"
