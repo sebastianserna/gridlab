@@ -41,7 +41,7 @@ const menuGlobalTemplate = /*html*/ `
   <h1><a href="/gridlab">GridLab</a></h1>
   ${menuGlobalItems.map(item => `
   <li>
-    <a class="menu-item" href="gridlab/${item.link}">
+    <a class="menu-item" href="${item.link}">
       ${item.name ? `${item.name}`:` `}
     </a>
   </li>
