@@ -81,7 +81,6 @@ a {
 .main-header ul li a.active {
   color: white;
   background: #383838;
-  border-radius: 24px;
 }
 
 /* Sub Header 

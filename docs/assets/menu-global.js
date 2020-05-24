@@ -37,6 +37,7 @@ const menuGlobalItems = [
 ];
 
 const menuGlobalTemplate = /*html*/ `
+  <img src="assets/images/favicon.svg" width="40" />
   <h1 class="main-logo"><a href="/gridlab">GridLab</a></h1>
   ${menuGlobalItems.map(item => `
   <li>
