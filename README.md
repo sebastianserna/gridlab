@@ -26,6 +26,7 @@ https://2019.stateofcss.com/technologies/css-frameworks/
 ## Buenas prácticas
 
 * Best Practices With CSS Grid Layout https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/
+* The Grid System: Building a Solid Design Layout https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout
 
 ## Compatibilidad en navegadores
 

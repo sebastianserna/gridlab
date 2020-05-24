@@ -1,0 +1,101 @@
+/*!--------------------------
+* GridLab - Color grids
+* ------------------------- */
+
+// Varibales
+
+$grid-bg-color:       MediumPurple;
+$grid-border-color:  lighten( MediumPurple, 20%);
+$grid-height:        80px;
+$grid-height-xl:     120px;
+$grid-height-lg:     80px;
+$grid-height-md:     60px;
+$grid-height-sm:     30px;
+$grid-padding:       12px;
+
+// Styles
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* Bulma */
+.columns,
+.column {
+  font-family: sans-serif;
+  background: $grid-bg-color;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height-md;
+}
+
+/* Tailwind */
+.grid *,
+.grid-cols-1 * {
+  font-family: sans-serif;
+  background: $grid-bg-color;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height;
+  padding: $grid-padding;
+}
+
+/* Swanix */
+.grid * {
+  font-family: sans-serif;
+  background: $grid-bg-color !important;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height;
+  padding: $grid-padding;
+}
+
+/* Reflex */
+.grid * {
+  font-family: sans-serif;
+  background: $grid-bg-color;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height;
+  padding: $grid-padding;
+}
+
+
+/* Pure */
+.pure-g *,
+.pure-u-1-3 {
+  font-family: sans-serif;
+  background: $grid-bg-color;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height;
+  padding: $grid-padding;
+}
+
+/* Foundation */
+.grid-x *, 
+.grid-y *,
+.cell {
+  font-family: sans-serif;
+  background: $grid-bg-color;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height;
+  padding: $grid-padding;
+}
+
+/* Flash Grid */
+.grid .child {
+  font-family: sans-serif;
+  background: $grid-bg-color;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height-md;
+  padding: $grid-padding;
+}

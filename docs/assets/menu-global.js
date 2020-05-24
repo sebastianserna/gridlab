@@ -37,8 +37,8 @@ const menuGlobalItems = [
 ];
 
 const menuGlobalTemplate = /*html*/ `
-  <img src="assets/images/favicon.svg" width="40" />
-  <h1 class="main-logo"><a href="/gridlab">GridLab</a></h1>
+  <img src="assets/images/favicon.svg" width="40" height="40" />
+  <h1 class="main-logo"><a href="./">GridLab</a></h1>
   ${menuGlobalItems.map(item => `
   <li>
     <a class="menu-item" href="${item.link}">
