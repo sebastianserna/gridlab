@@ -26,26 +26,8 @@
 <!-- Content -->
 <h2>Overview</h2>
 
-<textarea code-editor="html" code-result-size="340">
+<textarea code-editor="html" code-result-size="260">
 <div class="grid grid-cols-3">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>
-</div>
-</textarea>
-
-<h2>Responsive</h2>
-
-<h3>All breakpoints</h3>
-
-<textarea code-editor="html" code-result-size="420">
-<div class="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
   <div>1</div>
   <div>2</div>
   <div>3</div>
@@ -58,25 +40,89 @@
   <div>10</div>
   <div>11</div>
   <div>12</div>
-  <div>13</div>
-  <div>14</div>
-  <div>15</div>
-  <div>16</div>
 </div>
 </textarea>
 
-<h3>Container</h3>
+<h2>Spanning cols</h2>
+
+<textarea code-editor="html" code-result-size="640">
+<div class="grid grid-cols-12">
+  <div class="col-span-12">12 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-11">11 cols</div>
+  <div class="col-span-1">1 col</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-10">10 cols</div>
+  <div class="col-span-2">2 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-9">9 cols</div>
+  <div class="col-span-3">3 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-8">8 cols</div>
+  <div class="col-span-4">4 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-7">7 cols</div>
+  <div class="col-span-5">5 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-6">6 cols</div>
+  <div class="col-span-6">6 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-5">5 cols</div>
+  <div class="col-span-7">7 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-4">4 cols</div>
+  <div class="col-span-8">8 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-3">3 cols</div>
+  <div class="col-span-9">9 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-2">2 cols</div>
+  <div class="col-span-10">10 cols</div>
+</div>
+<div class="grid grid-cols-12">
+  <div class="col-span-1">1 col</div>
+  <div class="col-span-11">11 cols</div>
+</div>
+</textarea>
+
+<h2>Responsive</h2>
+
+<h3>All breakpoints</h3>
+
+<textarea code-editor="html" code-result-size="420">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>
+</div>
+</textarea>
+
+<h2>Spanning Rows</h2>
 
 <textarea code-editor="html" code-result-size="320">
-<div class="container">
-  <div class="grid grid-cols-2">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-  </div>
+<div class="grid grid-rows-3 grid-flow-col">
+  <div class="row-span-3"></div>
+  <div class="row-span-1 col-span-2"></div>
+  <div class="row-span-2 col-span-2"></div>
 </div>
 </textarea>
 

@@ -26,72 +26,121 @@
 <!-- Content -->
 <h2>Overview</h2>
 
-<textarea code-editor="html" code-result-size="600">
-<div class="columns">
-  <div class="column is-four-fifths">is-four-fifths</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-three-quarters">is-three-quarters</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-two-thirds">is-two-thirds</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-three-fifths">is-three-fifths</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-half">is-half</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-two-fifths">is-two-fifths</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-one-third">is-one-third</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-one-quarter">is-one-quarter</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-<div class="columns">
-  <div class="column is-one-fifth">is-one-fifth</div>
-  <div class="column">Auto</div>
-  <div class="column">Auto</div>
-</div>
-</textarea>
-
-<h2>Basic use</h2>
-
 <textarea code-editor="html" code-result-size="100">
 <div class="columns">
-  <div class="column">
-    First column
-  </div>
-  <div class="column">
-    Second column
-  </div>
-  <div class="column">
-    Third column
-  </div>
-  <div class="column">
-    Fourth column
-  </div>
+  <div class="column">First column</div>
+  <div class="column">Second column</div>
+  <div class="column">Third column</div>
+  <div class="column">Fourth column</div>
 </div>
 </textarea>
+
+<h2>Spanning columns</h2>
+
+<h3>Size classes</h3>
+<p>As the grid can be divided into 12 columns, there are size classes for each division</p>
+
+<textarea code-editor="html" code-result-size="540">
+<div class="columns">
+  <div class="column is-12">12 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-11">11 cols</div>
+  <div class="column is-1">1 col</div>
+</div>
+<div class="columns">
+  <div class="column is-10">10 cols</div>
+  <div class="column is-2">2 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-9">9 cols</div>
+  <div class="column is-3">3 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-8">8 cols</div>
+  <div class="column is-4">4 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-7">7 cols</div>
+  <div class="column is-5">5 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-6">6 cols</div>
+  <div class="column is-6">6 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-5">5 cols</div>
+  <div class="column is-7">7 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-4">4 cols</div>
+  <div class="column is-8">8 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-3">3 cols</div>
+  <div class="column is-9">9 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-2">2 cols</div>
+  <div class="column is-10">10 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-1">1 col</div>
+  <div class="column is-11">11 cols</div>
+</div>
+</textarea>
+
+<h3>Size classes</h3>
+<p>If you want to change the size of a single column, you can use one of the following classes, the other columns will fill up the remaining space automatically</p>
+
+<textarea code-editor="html" code-result-size="420">
+  <div class="columns">
+    <div class="column is-four-fifths">is-four-fifths</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-three-quarters">is-three-quarters</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-two-thirds">is-two-thirds</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-three-fifths">is-three-fifths</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-half">is-half</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-two-fifths">is-two-fifths</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-one-third">is-one-third</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-one-quarter">is-one-quarter</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  <div class="columns">
+    <div class="column is-one-fifth">is-one-fifth</div>
+    <div class="column">Auto</div>
+    <div class="column">Auto</div>
+  </div>
+  </textarea>
+
 
 <!-- Scripts -->
 <link href="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.css" rel="stylesheet">

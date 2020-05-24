@@ -6,11 +6,11 @@
 
 $grid-bg-color:       MediumPurple;
 $grid-border-color:  lighten( MediumPurple, 20%);
-$grid-height:        80px;
+$grid-height:        48px;
 $grid-height-xl:     120px;
 $grid-height-lg:     80px;
 $grid-height-md:     60px;
-$grid-height-sm:     30px;
+$grid-height-sm:     20px;
 $grid-padding:       12px;
 
 // Styles
@@ -32,7 +32,7 @@ html {
   background: $grid-bg-color;
   color: white;
   box-shadow: inset 0 0 0 1px $grid-border-color;
-  min-height: $grid-height-md;
+  min-height: $grid-height-sm;
 }
 
 /* Tailwind */
