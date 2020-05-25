@@ -1,14 +1,15 @@
 # GridLab
+
 CSS Grid research
 
-## Frameworks que utilizan CSS Grid
+## Frameworks & libraries using CSS Grid
 
 * Blueprint CSS https://blueprintcss.dev/
 * FlashGrid (Codyhouse) https://github.com/CodyHouse/flashgrid 
 * Raster https://github.com/rsms/raster
 * Tailwind https://tailwindcss.com/components/grids/
 
-## Grids de Frameworks CSS populares (no utilizan CSS Grid)
+## Grids from popular CSS frameworks
 
 * Bootstrap https://getbootstrap.com/docs/4.0/layout/grid/
 * Foundation https://get.foundation/sites/docs/xy-grid.html
@@ -20,37 +21,25 @@ CSS Grid research
 * Tachyons http://tachyons.io/docs/layout/grid/
 * Primer https://primer.style/css/objects/grid
 
-## Frameworks populares
+## Surveys and lists
+
 * https://2019.stateofcss.com/technologies/css-frameworks/
 * https://github.com/troxler/awesome-css-frameworks
 
-## Buenas prácticas
+## Best Practices
 
 * Best Practices With CSS Grid Layout https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/
 * The Grid System: Building a Solid Design Layout https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout
 
-## Compatibilidad en navegadores
+## Browser Compatibility
 
 * Can I use (CSS Grid) https://caniuse.com/#search=grid
 * CSS Grid in IE: Debunking Common IE Grid Misconceptions https://css-tricks.com/css-grid-in-ie-debunking-common-ie-grid-misconceptions/
 * CSS Grid in IE: CSS Grid and the New Autoprefixer https://css-tricks.com/css-grid-in-ie-css-grid-and-the-new-autoprefixer/
 * Using CSS Grid: Supporting Browsers Without Grid https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/
 
-## Cursos
-* Rachel Andrew - Learn Grid Layout https://gridbyexample.com/video/
-* Wes Bos - CSS Grid https://cssgrid.io/
-* CSS Grid Course (FreeCodeCamp) https://www.youtube.com/watch?v=t6CBKf8K_Ac
+## Resources & Showcases
 
-## Expertos
-* Rachel Andrew
-* Jen Simmons
-* Chris Coyier
-* Wes Bos
-* Miriam Suzanne
-* Sara Soueidan
-* Amelia Bellamy-Royds
-
-## Recursos y casos de estudio
 * CSS Grid Garden http://cssgridgarden.com/
 * Grid by Example https://gridbyexample.com/
 * CSS Grid Playground https://mozilladevelopers.github.io/playground/css-grid/
@@ -59,7 +48,24 @@ CSS Grid research
 * CSS Grid Starter Layouts https://css-tricks.com/snippets/css/css-grid-starter-layouts/
 * The Dark side of the grid https://www.matuzo.at/blog/the-dark-side-of-the-grid/
 
-## Tutoriales
+## Experts
+
+* Rachel Andrew https://github.com/rachelandrew
+* Jen Simmons https://github.com/jensimmons
+* Chris Coyier https://github.com/chriscoyier
+* Wes Bos https://github.com/wesbos
+* Miriam Suzanne https://github.com/mirisuzanne
+* Sara Soueidan https://github.com/SaraSoueidan
+* Amelia Bellamy-Royds https://github.com/AmeliaBR
+
+## Courses
+
+* Rachel Andrew - Learn Grid Layout https://gridbyexample.com/video/
+* Wes Bos - CSS Grid https://cssgrid.io/
+* CSS Grid Course (FreeCodeCamp) https://www.youtube.com/watch?v=t6CBKf8K_Ac
+
+## Tutorials
+
 * How to Efficiently Master the CSS Grid — in a Jiffy https://medium.com/flexbox-and-grids/how-to-efficiently-master-the-css-grid-in-a-jiffy-585d0c213577
 * CSS Variables With Inline Styles https://ishadeed.com/article/css-variables-inline-styles/
 * Super-Powered Grid Components with CSS Custom Properties https://css-tricks.com/super-power-grid-components-with-css-custom-properties/
@@ -69,7 +75,8 @@ CSS Grid research
 * A Beginner's Tutorial to the CSS Grid (By Example!) https://www.youtube.com/watch?time_continue=8&v=xXKp3b1YL-U
 * Diagramaciones increíblemente fáciles con CSS Grid (Jen Simmons) https://www.youtube.com/watch?v=tFKrK4eAiUQ
 
-## Artículos y conferencias
+## Articles & Keynotes
+
 * Progressing Our Layouts (Jen Simmons) http://jensimmons.com/presentation/progressing-our-layouts
 * CSS Grid Application Layout in Production https://techblog.commercetools.com/gss-grid-application-layout-in-production-f60c65a05cfa
 * CSS Grid layout: multiply & conquer — or how to actually design using The Grid https://medium.freecodecamp.org/css-grid-layout-multiply-conquer-or-how-to-actually-design-using-the-grid-745dfc51e114
@@ -81,7 +88,8 @@ CSS Grid research
 * CSS Grid — The Swiss Army Knife For Website and Application Layouts https://medium.com/@js_tut/css-grid-the-swiss-army-knife-for-cutting-website-and-application-layouts-c1bd7a6b4e56
 
 
-## Experimentos - Recrear Layouts de apps populares en CSS Grid
+## Experiment Ideas - Recreate apps layout with CSS Grid
+
 * Netflix (Movies)
 * Spotify (Music)
 * Frame.io (Video)
