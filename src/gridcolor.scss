@@ -35,6 +35,16 @@ html {
   min-height: $grid-height-sm;
 }
 
+/* Bootstrap */
+.row * {
+  font-family: sans-serif;
+  background: $grid-bg-color;
+  color: white;
+  box-shadow: inset 0 0 0 1px $grid-border-color;
+  min-height: $grid-height;
+  padding: $grid-padding;
+}
+
 /* Tailwind */
 .grid *,
 .grid-cols-1 * {
@@ -110,7 +120,6 @@ html {
 }
 
 /* Raster */
-
 r-grid * {
   font-family: sans-serif;
   background: $grid-bg-color;

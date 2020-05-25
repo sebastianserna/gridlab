@@ -11,6 +11,10 @@ const menuGlobalItems = [
     link: "bulma"
   },
   { 
+    name: 'Bootstrap', 
+    link: "bootstrap"
+  },
+  { 
     name: 'Foundation', 
     link: "foundation"
   },
