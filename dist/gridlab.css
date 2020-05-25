@@ -127,6 +127,17 @@ h2 {
   margin-left: 12px;
 }
 
+@media (max-width: 600px) {
+  .sub-header {
+    display: block;
+    height: auto;
+  }
+  .sub-header .actions .button {
+    font-size: 70%;
+    margin-bottom: 12px;
+  }
+}
+
 /* Logo Background (Empty State) 
 ---------------------------------- */
 body .logo-bg {
