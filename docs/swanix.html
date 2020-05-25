@@ -2,21 +2,20 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <title>Swanix - GridLab</title>
   <!-- Styles -->
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
-<body>
+<body id="grid-swanix">
 
 <!-- Header -->
 <header class="main-header">
   <script src="assets/menu-global.js"></script>
 </header>
 <header class="sub-header">
-  <h1>Swanix</h1>
+  <h1>Swanix <span class="grid-type">CSS Grid</span></h1>
   <div class="actions">
     <a href="http://swanix.org/ui/#/layout-grid" class="button" target="_blank" rel="noopener noreferrer">Docs</a>
     <a href="https://github.com/swanix/ui" class="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -26,15 +25,25 @@
 <!-- Content -->
 <h2>Overview</h2>
 
-<textarea code-editor="html" code-result-size="260">
-  <div class="grid three-cols">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-  </div>
+<textarea code-editor="html" code-result-size="120">
+<div class="grid">
+  <div>1 col</div>
+</div>
+</textarea>
+
+<textarea code-editor="html" code-result-size="120">
+<div class="grid two-cols">
+  <div>1 col</div>
+  <div>1 col</div>
+</div>
+</textarea>
+
+<textarea code-editor="html" code-result-size="120">
+<div class="grid three-cols">
+  <div>1 col</div>
+  <div>1 col</div>
+  <div>1 col</div>
+</div>
 </textarea>
 
 <!-- Scripts -->
@@ -42,7 +51,7 @@
 <script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
-    "dist/swanix/swanix-grid.css",
+    "dist/swanix/grid.css",
     "dist/gridcolor.css"
   ];
   codeResultInit();

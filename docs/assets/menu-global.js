@@ -11,16 +11,16 @@ const menuGlobalItems = [
     link: "bulma"
   },
   { 
-    name: 'Tailwind', 
-    link: "tailwind"
-  },
-  { 
     name: 'Foundation', 
     link: "foundation"
   },
   { 
     name: 'Pure', 
     link: "pure"
+  },
+  { 
+    name: 'Tailwind', 
+    link: "tailwind"
   },
   { 
     name: 'Reflex', 
@@ -31,6 +31,14 @@ const menuGlobalItems = [
     link: "flashgrid"
   },
   { 
+    name: 'Blueprint', 
+    link: "blueprint"
+  },
+  { 
+    name: 'Raster', 
+    link: "raster"
+  },
+  { 
     name: 'Swanix', 
     link: "swanix"
   }
@@ -38,7 +46,7 @@ const menuGlobalItems = [
 
 const menuGlobalTemplate = /*html*/ `
   <img src="assets/images/favicon.svg" width="40" height="40" />
-  <h1 class="main-logo"><a href="./">GridLab</a></h1>
+  <h2 class="main-logo"><a href="./">GridLab</a></h2>
   ${menuGlobalItems.map(item => `
   <li>
     <a class="menu-item" href="${item.link}">

@@ -2,21 +2,20 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <title>Bulma - GridLab</title>
   <!-- Styles -->
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
-<body>
+<body id="grid-bulma">
 
 <!-- Header -->
 <header class="main-header">
   <script src="assets/menu-global.js"></script>
 </header>
 <header class="sub-header">
-  <h1>Bulma</h1>
+  <h1>Bulma <span class="grid-type">Flexbox</span></h1>
   <div class="actions">
     <a href="https://bulma.io/documentation/columns/basics/" class="button" target="_blank" rel="noopener noreferrer">Docs</a>
     <a href="https://github.com/jgthms/bulma" class="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -26,12 +25,46 @@
 <!-- Content -->
 <h2>Overview</h2>
 
-<textarea code-editor="html" code-result-size="100">
+<textarea code-editor="html" code-result-size="320">
 <div class="columns">
-  <div class="column">First column</div>
-  <div class="column">Second column</div>
-  <div class="column">Third column</div>
-  <div class="column">Fourth column</div>
+  <div class="column">12 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-6">6 cols</div>
+  <div class="column is-6">6 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-4">4 cols</div>
+  <div class="column is-4">4 cols</div>
+  <div class="column is-4">4 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-3">3 cols</div>
+  <div class="column is-3">3 cols</div>
+  <div class="column is-3">3 cols</div>
+  <div class="column is-3">3 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-2">2 cols</div>
+  <div class="column is-2">2 cols</div>
+  <div class="column is-2">2 cols</div>
+  <div class="column is-2">2 cols</div>
+  <div class="column is-2">2 cols</div>
+  <div class="column is-2">2 cols</div>
+</div>
+<div class="columns">
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
+  <div class="column is-1">1 col</div>
 </div>
 </textarea>
 
@@ -147,7 +180,7 @@
 <script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
-    "dist/bulma/bulma-grid.css",
+    "dist/bulma/grid.css",
     "dist/gridcolor.css"
   ];
   codeResultInit();

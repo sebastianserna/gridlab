@@ -2,21 +2,20 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <title>Reflex - GridLab</title>
   <!-- Styles -->
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
-<body>
+<body id="grid-reflex">
 
 <!-- Header -->
 <header class="main-header">
   <script src="assets/menu-global.js"></script>
 </header>
 <header class="sub-header">
-  <h1>Reflex</h1>
+  <h1>Reflex <span class="grid-type">Flexbox</span></h1>
   <div class="actions">
     <a href="http://reflexgrid.com/docs/" class="button" target="_blank" rel="noopener noreferrer">Docs</a>
     <a href="https://github.com/leejordan/reflex" class="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -26,18 +25,36 @@
 <!-- Content -->
 <h2>Overview</h2>
 
-<textarea code-editor="html" code-result-size="240">
+<textarea code-editor="html" code-result-size="360">
 <div class="grid">
+  <div class="col-12">12 cols</div>
   <div class="col-6">6 cols</div>
   <div class="col-6">6 cols</div>
-  <div class="col-6">6 cols</div>
+  <div class="col-4">4 cols</div>
+  <div class="col-4">4 cols</div>
+  <div class="col-4">4 cols</div>
   <div class="col-3">3 cols</div>
   <div class="col-3">3 cols</div>
+  <div class="col-3">3 cols</div>
+  <div class="col-3">3 cols</div>
+  <div class="col-2">2 cols</div>
+  <div class="col-2">2 cols</div>
+  <div class="col-2">2 cols</div>
+  <div class="col-2">2 cols</div>
+  <div class="col-2">2 cols</div>
+  <div class="col-2">2 cols</div>
   <div class="col-1">1 col</div>
-  <div class="col-5">5 cols</div>
-  <div class="col-2">2 cols</div>
-  <div class="col-2">2 cols</div>
-  <div class="col-2">2 cols</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
+  <div class="col-1">1 col</div>
 </div>
 </textarea>
 
@@ -46,7 +63,7 @@
 <script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
-    "dist/reflex/reflex.css",
+    "dist/reflex/grid.css",
     "dist/gridcolor.css"
   ];
   codeResultInit();

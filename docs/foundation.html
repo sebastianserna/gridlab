@@ -2,21 +2,20 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <title>Foundation - GridLab</title>
   <!-- Styles -->
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
-<body>
+<body id="grid-foundation">
 
 <!-- Header -->
 <header class="main-header">
   <script src="assets/menu-global.js"></script>
 </header>
 <header class="sub-header">
-  <h1>Foundation</h1>
+  <h1>Foundation <span class="grid-type">Flexbox</span></h1>
   <div class="actions">
     <a href="https://get.foundation/sites/docs/xy-grid" class="button" target="_blank" rel="noopener noreferrer">Docs</a>
     <a href="https://github.com/foundation/foundation-sites" class="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -26,30 +25,36 @@
 <!-- Content -->
 <h2>Overview</h2>
 
-<textarea code-editor="html" code-result-size="300">
+<textarea code-editor="html" code-result-size="360">
 <div class="grid-x">
-  <div class="cell">full width cell</div>
-  <div class="cell">full width cell</div>
-</div>
-<div class="grid-x">
-  <div class="cell small-6">6 cells</div>
-  <div class="cell small-6">6 cells</div>
-</div>
-<div class="grid-x">
-  <div class="cell medium-6 large-4">12/6/4 cells</div>
-  <div class="cell medium-6 large-8">12/6/8 cells</div>
-</div>  
-</textarea>
-
-<h2>Grid Container</h2>
-
-<textarea code-editor="html" code-result-size="140">
-<div class="grid-container">
-  <div class="grid-x grid-margin-x">
-    <div class="cell small-4">cell</div>
-    <div class="cell small-4">cell</div>
-    <div class="cell small-4">cell</div>
-  </div>
+  <div class="cell">12 cols</div>
+  <div class="cell medium-6">6 cols</div>
+  <div class="cell medium-6">6 cols</div>
+  <div class="cell medium-4">4 cols</div>
+  <div class="cell medium-4">4 cols</div>
+  <div class="cell medium-4">4 cols</div>
+  <div class="cell medium-3">3 cols</div>
+  <div class="cell medium-3">3 cols</div>
+  <div class="cell medium-3">3 cols</div>
+  <div class="cell medium-3">3 cols</div>
+  <div class="cell medium-2">2 cols</div>
+  <div class="cell medium-2">2 cols</div>
+  <div class="cell medium-2">2 cols</div>
+  <div class="cell medium-2">2 cols</div>
+  <div class="cell medium-2">2 cols</div>
+  <div class="cell medium-2">2 cols</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
+  <div class="cell medium-1">1 col</div>
 </div>
 </textarea>
 
@@ -58,7 +63,7 @@
 <script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
-    "dist/foundation/foundation-grid.css",
+    "dist/foundation/grid.css",
     "dist/gridcolor.css"
   ];
   codeResultInit();

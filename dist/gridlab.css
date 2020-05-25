@@ -1,12 +1,19 @@
 /*!--------------------------
 * GridLab
 * ------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: sans-serif;
   padding-top: 80px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 80px;
+  overscroll-behavior: none;
 }
 
 body {
@@ -60,6 +67,10 @@ h2 {
   padding: 0 14px;
 }
 
+.main-header .main-logo {
+  margin-top: 20px;
+}
+
 .main-header .main-logo a {
   text-decoration: none;
   color: white;
@@ -85,6 +96,7 @@ h2 {
 .main-header ul li a.active {
   color: white;
   background: #383838;
+  border-radius: 5px;
 }
 
 /* Sub Header 
@@ -100,12 +112,24 @@ h2 {
 
 .sub-header h1 {
   margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-type {
+  line-height: 14px;
+  font-size: 35%;
+  opacity: 0.5;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: 12px;
 }
 
 /* Logo Background (Empty State) 
 ---------------------------------- */
 body .logo-bg {
-  opacity: 0.04;
+  opacity: 0.1;
   filter: invert(1);
   margin: 0 auto;
   display: flex;

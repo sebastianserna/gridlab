@@ -2,21 +2,20 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <title>Flash Grid - GridLab</title>
   <!-- Styles -->
   <link rel="stylesheet" href="dist/gridlab.css">
 </head>
-<body>
+<body id="grid-flashgrid">
 
 <!-- Header -->
 <header class="main-header">
   <script src="assets/menu-global.js"></script>
 </header>
 <header class="sub-header">
-  <h1>Flash Grid</h1>
+  <h1>Flash Grid <span class="grid-type">CSS Grid</span></h1>
   <div class="actions">
     <a href="https://dev.to/codyhouse/flash-grid-learn-css-grid-by-building-a-grid-system-2c4f" class="button" target="_blank" rel="noopener noreferrer">Docs</a>
     <a href="https://github.com/CodyHouse/flashgrid" class="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -28,34 +27,34 @@
 
 <textarea code-editor="html" code-result-size="420">
 <div class="grid">
-  <div class="child col-1">1</div>
-  <div class="child col-1">2</div>
-  <div class="child col-1">3</div>
-  <div class="child col-1">4</div>
-  <div class="child col-1">5</div>
-  <div class="child col-1">6</div>
-  <div class="child col-1">7</div>
-  <div class="child col-1">8</div>
-  <div class="child col-1">9</div>
-  <div class="child col-1">10</div>
-  <div class="child col-1">11</div>
-  <div class="child col-1">12</div>
-  <div class="child col-2">13</div>
-  <div class="child col-2">14</div>
-  <div class="child col-2">15</div>
-  <div class="child col-2">16</div>
-  <div class="child col-2">17</div>
-  <div class="child col-2">18</div>
-  <div class="child col-3">19</div>
-  <div class="child col-3">20</div>
-  <div class="child col-3">21</div>
-  <div class="child col-3">22</div>
-  <div class="child col-4">23</div>
-  <div class="child col-4">24</div>
-  <div class="child col-4">25</div>
-  <div class="child col-6">26</div>
-  <div class="child col-6">27</div>
-  <div class="child">28</div>
+  <div class="child">12 cols</div>
+  <div class="child col-6">6 cols</div>
+  <div class="child col-6">6 cols</div>
+  <div class="child col-4">4 cols</div>
+  <div class="child col-4">4 cols</div>
+  <div class="child col-4">4 cols</div>
+  <div class="child col-3">3 cols</div>
+  <div class="child col-3">3 cols</div>
+  <div class="child col-3">3 cols</div>
+  <div class="child col-3">3 cols</div>
+  <div class="child col-2">2 cols</div>
+  <div class="child col-2">2 cols</div>
+  <div class="child col-2">2 cols</div>
+  <div class="child col-2">2 cols</div>
+  <div class="child col-2">2 cols</div>
+  <div class="child col-2">2 cols</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
+  <div class="child col-1">1 col</div>
 </div>
 </textarea>
 
@@ -76,7 +75,7 @@
 <script src="https://cdn.jsdelivr.net/gh/swanix/coderix/dist/coderix.min.js"></script>  
 <script>
   loadCss = [
-    "dist/flashgrid/flashgrid.css",
+    "dist/flashgrid/grid.css",
     "dist/gridcolor.css"
   ];
   codeResultInit();
