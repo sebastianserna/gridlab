@@ -54,7 +54,7 @@ h2 {
 
 /* Main Header 
 ---------------------------------- */
-.main-header {
+.main-menu {
   display: flex;
   align-items: center;
   position: fixed;
@@ -67,18 +67,18 @@ h2 {
   padding: 0 14px;
 }
 
-.main-header .main-logo {
+.main-menu .main-logo {
   margin-top: 20px;
 }
 
-.main-header .main-logo a {
+.main-menu .main-logo a {
   text-decoration: none;
   color: white;
   margin-right: 28px;
   font-size: 26px;
 }
 
-.main-header ul {
+.main-menu ul {
   display: flex;
   list-style-type: none;
   padding-left: 0;
@@ -87,13 +87,13 @@ h2 {
   justify-content: center;
 }
 
-.main-header ul li a {
+.main-menu ul li a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   padding: 10px 20px;
 }
 
-.main-header ul li a.active {
+.main-menu ul li a.active {
   color: white;
   background: #383838;
   border-radius: 5px;
