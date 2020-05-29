@@ -58,6 +58,12 @@ CSS Grid research
 * Sara Soueidan https://github.com/SaraSoueidan
 * Amelia Bellamy-Royds https://github.com/AmeliaBR
 
+## Forms with CSS Grid
+
+* Using CSS Grid and Box Alignment properties to build form layouts (Nov, 2018) https://medium.com/the-andela-way/using-css-grid-and-box-alignment-properties-to-build-form-layouts-b5f7ade6e73d
+* The Benefits of Using CSS Grid for Web Form Layout (Aug, 2018) https://www.sitepoint.com/css-grid-web-form-layout/
+* Creating a simple form with CSS Grid (Oct, 2018) https://zellwk.com/blog/simple-form-with-css-grid/
+
 ## Courses
 
 * Rachel Andrew - Learn Grid Layout https://gridbyexample.com/video/
