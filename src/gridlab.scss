@@ -191,3 +191,18 @@ iframe.code-result.hidden {
   border: 1px solid #f2f2f2;
   color: rgba(0,0,0, 0);
 }
+
+/* Table 
+---------------------------------- */
+
+table,
+table tr,
+table td {
+  border: 1px solid #CCCCCC;
+  border-collapse: collapse;
+}
+
+table tr,
+table td {
+  padding: 8px;
+}
