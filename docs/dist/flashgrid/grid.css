@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------
 *  FlashGrid
-*  Based on https://github.com/CodyHouse/flashgrid
+*  Extracted from https://github.com/CodyHouse/flashgrid
 * ------------------------------------------------------------
 */
 .grid, [class*="grid-auto-"] {
