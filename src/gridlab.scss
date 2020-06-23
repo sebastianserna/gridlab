@@ -206,3 +206,15 @@ table tr,
 table td {
   padding: 8px;
 }
+
+/* Grid */
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-gap: 28px;
+}
+
+.grid-image {
+  width: 100%;
+}

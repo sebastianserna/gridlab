@@ -94,6 +94,7 @@ CSS Grid research
 * Using CSS Grid to build a page layout with a sticky header and footer https://www.bitovi.com/blog/using-css-grid-to-build-a-page-layout
 * A Complete Guide to Grid https://css-tricks.com/snippets/css/complete-guide-grid/
 * CSS Grid — The Swiss Army Knife For Website and Application Layouts https://medium.com/@js_tut/css-grid-the-swiss-army-knife-for-cutting-website-and-application-layouts-c1bd7a6b4e56
+* The 100% correct way to do CSS breakpoints (nov, 2016) https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
 
 
 ## Experiment Ideas - Recreate app layouts with CSS Grid
